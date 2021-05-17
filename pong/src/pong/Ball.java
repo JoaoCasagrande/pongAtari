@@ -17,7 +17,7 @@ public class Ball {
 		this.width = 4;
 		this.height = 4;
 		
-		int angle = new Random().nextInt(120-45) + 45;
+		int angle = new Random().nextInt(120-45) + 45; // faz com que a bola retorne num ângulo entre 45 e 120
 		dx = Math.cos(Math.toRadians(angle));
 		dy = Math.sin(Math.toRadians(angle));
 		
